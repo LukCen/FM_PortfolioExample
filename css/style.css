@@ -108,4 +108,46 @@ strong {
   right: 385px;
 }
 
+.col-4 {
+  border: 1px solid red;
+}
+
+.rowTwo > * {
+  color: white;
+}
+
+.rowTwo > .col > h3 {
+  font-size: 4rem !important;
+  font-weight: 600;
+}
+
+.rowTwo > .col > p {
+  font-size: 2rem;
+}
+
+.textContainerCirclesRowTwo {
+  height: 50px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  bottom: 50%;
+}
+.textContainerCirclesRowTwo:nth-child(2) {
+  top: 510px;
+}
+.textContainerCirclesRowTwo:nth-child(3) {
+  top: 530px;
+}
+.textContainerCirclesRowTwo:nth-child(4) {
+  top: 650px;
+  left: 300px;
+}
+.textContainerCirclesRowTwo:nth-child(5) {
+  top: 670px;
+  left: 400px;
+}
+
 /*# sourceMappingURL=style.css.map */
