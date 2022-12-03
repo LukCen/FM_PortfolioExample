@@ -1,0 +1,19 @@
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+a > strong {
+    font-size: 2rem;
+
+    &:hover {
+        color: lightgray;
+        text-shadow: 3px black
+    }
+}
+
+.projectImage {
+    background-color: cadetblue;
+    width: 50% !important;
+  
+}

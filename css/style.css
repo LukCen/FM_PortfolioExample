@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 html {
@@ -108,10 +109,6 @@ strong {
   right: 385px;
 }
 
-.col-4 {
-  border: 1px solid red;
-}
-
 .rowTwo > * {
   color: white;
 }
@@ -126,28 +123,45 @@ strong {
 }
 
 .textContainerCirclesRowTwo {
+  display: flex;
   height: 50px;
   width: 300px;
   border: 1px solid gray;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
-  right: 50px;
-  bottom: 50%;
+  top: 130%;
+  right: -6%;
+  flex-wrap: nowrap;
 }
 .textContainerCirclesRowTwo:nth-child(2) {
-  top: 510px;
+  top: 131%;
 }
 .textContainerCirclesRowTwo:nth-child(3) {
-  top: 530px;
+  top: 132%;
 }
 .textContainerCirclesRowTwo:nth-child(4) {
-  top: 650px;
-  left: 300px;
+  top: 133%;
 }
 .textContainerCirclesRowTwo:nth-child(5) {
-  top: 670px;
-  left: 400px;
+  top: 134%;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+a > strong {
+  font-size: 2rem;
+}
+a > strong:hover {
+  color: lightgray;
+  text-shadow: 3px black;
+}
+
+.projectImage {
+  background-color: cadetblue;
+  width: 50% !important;
 }
 
 /*# sourceMappingURL=style.css.map */

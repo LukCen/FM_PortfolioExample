@@ -1,6 +1,3 @@
-.col-4 {
-    border: 1px solid red;
-}
 
 .rowTwo > * {
     color: white;
@@ -16,26 +13,26 @@
 }
 
 .textContainerCirclesRowTwo {
+    display: flex;
     height: 50px;
     width: 300px;
     border: 1px solid gray;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
-    right: 50px;
-    bottom: 50%;
+    top: 130%;
+    right: -6%;
+
+    flex-wrap: nowrap;
     &:nth-child(2) {
-        top: 510px;
+        top: 131%;
     };
     &:nth-child(3) {
-        top: 530px;
+        top: 132%;
     };
     &:nth-child(4) {
-        top: 650px;
-        left: 300px;
+        top: 133%;
     };
     &:nth-child(5) {
-        top: 670px;
-        left: 400px;
+        top: 134%;
     };
 }
