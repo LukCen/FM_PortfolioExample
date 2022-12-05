@@ -123,3 +123,26 @@ strong {
     align-self: center;
     right: 385px;
 }
+
+@media screen and (max-width: 750px) {
+    .textContainerCircles, .photoCircle{
+        display: none;
+    }
+    .itemPhoto{
+        height: 250px;
+        width: 175px;
+    }
+
+    .photoContainer{
+        width: 175px !important;
+    }
+
+    .textContainer {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .textContainer > h1 {
+        font-size: 4.5rem;
+    }
+}
