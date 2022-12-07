@@ -1,3 +1,10 @@
+.containerFour__form > .col6 > h2 {
+  font-size: 6rem !important;
+}
+.containerFour__form > .col-6 > p {
+  font-size: 1.5rem !important;
+}
+
 * {
   box-sizing: border-box;
   color: white;
