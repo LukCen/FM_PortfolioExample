@@ -12,10 +12,11 @@ html {
  }
 
 body {
-    height: 400vh;
+    height: 300vh;
     width: 100vw;
     max-width: 100%;
     background-color: rgb(41, 40, 40);
+    overflow-x: hidden;
 }
 
 a {
@@ -82,19 +83,19 @@ strong {
     border: 1px solid gray;
     border-radius: 50%;
     position: absolute;
-    top: 200px;
+    top: 140px;
     left: -50px;
     &:nth-child(2) {
-        top: 210px;
+        top: 150px;
     }
     &:nth-child(3) {
-        top: 220px;
+        top: 160px;
     }
     &:nth-child(4) {
-        top: 230px;
+        top: 170px;
     }
     &:nth-child(5) {
-        top: 240px;
+        top: 180px;
     }
 }
 

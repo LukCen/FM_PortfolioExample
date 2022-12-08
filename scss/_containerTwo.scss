@@ -6,10 +6,12 @@
 .rowTwo > .col > h3 {
     font-size: 4rem !important;
     font-weight: 600;
+    text-align: center;
 }
 
 .rowTwo > .col > p {
     font-size: 2rem;
+    text-align: center;
 }
 
 .textContainerCirclesRowTwo {
@@ -19,25 +21,30 @@
     border: 1px solid gray;
     border-radius: 50%;
     position: absolute;
-    top: 130%;
+    top: 90%;
     right: -6%;
 
-    flex-wrap: nowrap;
     &:nth-child(2) {
-        top: 131%;
+        top: 91%;
     };
     &:nth-child(3) {
-        top: 132%;
+        top: 92%;
     };
     &:nth-child(4) {
-        top: 133%;
+        top: 93%;
     };
     &:nth-child(5) {
-        top: 134%;
+        top: 94%;
     };
 }
 
 @media screen and (max-width: 750px) {
+
+    .containerTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
     .textContainerCirclesRowTwo {
         display: none;
     }
@@ -47,13 +54,19 @@
         height: 33% !important;
     }
 
+    .rowTwo > col {
+        align-items: center;
+    }
+
     .rowTwo > .col > h3 {
-        font-size: 3.5rem !important;
+        font-size: 3rem !important;
         font-weight: 600;
+
     }
     
     .rowTwo > .col > p {
         font-size: 1.5rem;
+
     }
 
     .experienceCols {
@@ -61,7 +74,7 @@
         margin: 1rem 1rem 1rem 1rem;
         justify-content: center;
 
-        &>*{
+        & > * {
             text-align: center;
             margin: 0 auto;
         }

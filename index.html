@@ -45,7 +45,7 @@
         </div>
     </div>
     <!-- containerTwo -->
-    <div class="container-fluid h-25 px-5">
+    <div class="container-fluid h-25 px-5 containerTwo">
         <div class="d-md-flex align-items-center row h-25 rowTwo">
             <div class="col col-4 experienceCols">
                 <h3>HTML</h3>
@@ -147,10 +147,10 @@
     </div>
 
     <!-- containerFour -->
-    <div class="container-fluid h-25 px-5">
+    <div class="d-flex flex-column justify-content-between h-25 px-5 containerFour w-100">
 
         <!-- contact + form -->
-        <div class="row containerFour__form h-25">
+        <div class="row containerFour__form p-5">
             <div class="col-6 p-5 w-50">
                 <h2>Contact</h2>
                 <p>I would love to hear about your project, and how I could help. Please, fill in the form, and I'll get back to you as soon as possible.</p>
@@ -158,7 +158,7 @@
             <div class="col-6 p-1 w-50 h-50">
                 <div class="mb-3">
                     <label for="formName" class="form-label">Name</label>
-                    <input type="text" id="formName" class="form-control form-control-lg" placeholder="Name">
+                    <input type="text" id="formName" class="form-control  form-control-lg" placeholder="Name">
                 </div>
                 <div class="mb-3">
                     <label for="formEmail" class="form-label">Email</label>
@@ -166,14 +166,22 @@
                 </div>
                 <div class="mb-3">
                     <label for="formMsg" class="form-label">Message</label>
-                    <textarea class="form-control" id="formMsg" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" id="formMsg" cols="20" rows="7"></textarea>
                 </div>
             </div>
         </div>
 
         <!-- bottom socials bar -->
-        <div class="row">
-            <div class="col"></div>
+        <div class="row bottomBar">
+            <div class="topBar">
+                <a href="#" class="topBar__name">adamkeyes</a>
+                <div class="socialBox">
+                    <box-icon type='logo' name='github' color="white"></box-icon>
+                    <box-icon type='logo' name="facebook" color="white"></box-icon>
+                    <box-icon type='logo' name="twitter" color="white"></box-icon>
+                    <box-icon type='logo' name='linkedin' color="white"></box-icon>
+                </div>
+            </div>
             <div class="col"></div>
         </div>
     </div>

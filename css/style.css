@@ -1,8 +1,29 @@
+.containerFour {
+  background-color: rgb(21, 20, 20);
+  max-width: 100%;
+}
 .containerFour__form > .col6 > h2 {
   font-size: 6rem !important;
 }
 .containerFour__form > .col-6 > p {
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
+}
+
+.form-control {
+  background: rgb(41, 40, 40);
+  border-radius: 0;
+  border-style: none none solid;
+  color: white;
+  font-size: 1.5rem;
+}
+.form-control:focus {
+  background: rgb(41, 40, 40);
+  color: white;
+}
+
+.form-label {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -20,10 +41,11 @@ html {
 }
 
 body {
-  height: 400vh;
+  height: 300vh;
   width: 100vw;
   max-width: 100%;
   background-color: rgb(41, 40, 40);
+  overflow-x: hidden;
 }
 
 a {
@@ -78,20 +100,20 @@ strong {
   border: 1px solid gray;
   border-radius: 50%;
   position: absolute;
-  top: 200px;
+  top: 140px;
   left: -50px;
 }
 .textContainerCircles:nth-child(2) {
-  top: 210px;
+  top: 150px;
 }
 .textContainerCircles:nth-child(3) {
-  top: 220px;
+  top: 160px;
 }
 .textContainerCircles:nth-child(4) {
-  top: 230px;
+  top: 170px;
 }
 .textContainerCircles:nth-child(5) {
-  top: 240px;
+  top: 180px;
 }
 
 .photoContainer {
@@ -146,10 +168,12 @@ strong {
 .rowTwo > .col > h3 {
   font-size: 4rem !important;
   font-weight: 600;
+  text-align: center;
 }
 
 .rowTwo > .col > p {
   font-size: 2rem;
+  text-align: center;
 }
 
 .textContainerCirclesRowTwo {
@@ -159,24 +183,29 @@ strong {
   border: 1px solid gray;
   border-radius: 50%;
   position: absolute;
-  top: 130%;
+  top: 90%;
   right: -6%;
-  flex-wrap: nowrap;
 }
 .textContainerCirclesRowTwo:nth-child(2) {
-  top: 131%;
+  top: 91%;
 }
 .textContainerCirclesRowTwo:nth-child(3) {
-  top: 132%;
+  top: 92%;
 }
 .textContainerCirclesRowTwo:nth-child(4) {
-  top: 133%;
+  top: 93%;
 }
 .textContainerCirclesRowTwo:nth-child(5) {
-  top: 134%;
+  top: 94%;
 }
 
 @media screen and (max-width: 750px) {
+  .containerTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   .textContainerCirclesRowTwo {
     display: none;
   }
@@ -186,8 +215,12 @@ strong {
     height: 33% !important;
   }
 
+  .rowTwo > col {
+    align-items: center;
+  }
+
   .rowTwo > .col > h3 {
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
     font-weight: 600;
   }
 
