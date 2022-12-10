@@ -9,29 +9,6 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 750px) {
-
-    .containerFour { 
-        padding: none !important;
-    }
-    .containerFour__form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center ;
-        align-items: center;
-        padding: 0 !important;
-
-        & > .contactText > p {
-            font-size: 1.25rem !important;
-        }
-    }
-
-    .btn {
-        width: 100% !important;
-    }
-
-}
-
 
 
 .form-control{
@@ -54,3 +31,40 @@
 .btn {
     font-size: 2rem !important;
 }
+
+#colResult {
+    display: none;
+    font-size: 2rem;
+    color: white;
+
+    & > p {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    
+    .containerFour { 
+        padding: none !important;
+    }
+    .containerFour__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+        padding: 0 !important;
+    
+        & > .contactText > p {
+            font-size: 1.25rem !important;
+        }
+    }
+    
+    .btn {
+        width: 100% !important;
+    }
+    
+}
+    
